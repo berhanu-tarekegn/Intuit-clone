@@ -1,0 +1,42 @@
+
+* {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ECEEF1;
+}
+
+.signup_header {
+    display: grid;
+    grid-template-columns: 2fr 0.1fr;
+    text-align: right;
+    padding: 20px 20px 0px 0px;
+
+
+}
+
+.already_have_account {
+    padding-bottom: 2px;
+}
+
+.forget_password {
+    text-decoration: none;
+    color: #0077C5;
+
+}
+
+.sign_in {
+    width: fit-content;
+    margin-left: 10px;
+    min-width: 100px;
+    background: #0077C5;
+    padding: 10px;
+    color: white;
+    border: 0.8px solid black;
+    border-radius: 0.5px;
+}
+
