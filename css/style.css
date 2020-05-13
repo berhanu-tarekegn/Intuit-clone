@@ -89,7 +89,7 @@ body {
 #registration_form {
     width: 30%;
     margin: 0 auto;
-    margin-bottom: 10%;
+    margin-bottom: 30px;
 }
 
 #create_account_form {
@@ -139,3 +139,41 @@ body {
     border-top: none;
 }
 
+.form_footer_terms_condition {
+    text-decoration: none;
+    font-size: 10px;
+    font-family: AvenirNext;
+    color: #0077C5;
+}
+
+.form_terms_condition {
+    font-size: 14px;
+    font-family: AvenirNext;
+}
+
+
+.reference_links {
+    text-align: center;
+}
+
+.footer_links {
+    display: inline;
+    padding: 10px;
+    font-size: 12px;
+    color: #505050;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+}
+
+.footer_links:hover {
+    text-decoration: underline;
+}
+
+.copy_right {
+    margin: 5px 25%;
+    overflow-wrap: break-word;
+    width: 50%;
+    color: #505050;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+    line-height: 1.5;
+    font-size: 12px;
+}
