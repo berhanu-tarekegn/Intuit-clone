@@ -1,4 +1,4 @@
-
+@import 'fonts.css';
 * {
     width: 100%;
     box-sizing: border-box;
@@ -37,6 +37,63 @@ body {
     padding: 10px;
     color: white;
     border: 0.8px solid black;
-    border-radius: 0.5px;
+    border-radius: 5px;
 }
-
+.company-info {
+    width: 30%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: .2fr .2fr;
+}
+.info_icons {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+.icon_info { 
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+.icon_info > span {
+    padding: 5px;
+    /* font-style: italic;
+    font-weight: lighter; */
+    font-family: Avenir;
+    font-size: 20px;
+    color: darkgrey;
+}
+.logo {
+    width: 120px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+.logo_item {
+    display: inline;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+}
+#create_account_form {
+    width: 30%;
+    padding: 40px 20px;
+    margin: 0 auto;
+    background: #fff;
+    font-family: Avenir;
+    font-weight: lighter;
+    border: 1px #ccc solid;
+}
+.input_field {
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+.field {
+    padding: 20px;
+}

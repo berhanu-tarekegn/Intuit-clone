@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="https://use.fontawesome.com/ab8f92d6ff.js"></script>
+    <script src="https://kit.fontawesome.com/f977934f89.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -19,7 +19,7 @@
             </div>
 
             <div>
-                <button class="sign_in"><i class="fas fa-lock"></i> In</button>
+                <button class="sign_in"><i class="fas fa-lock">Sign In</i></button>
             </div>
 
         </div>
@@ -27,9 +27,47 @@
     </header>
 
     <section>
-        <article>
+        <article class="company-info">
+            <img src="./images/intuit_logo.png" class="logo" alt="Intuit Logo">
+            <div class="info_icons">
+                <div class="icon_info">
+                    <img class="icon" src="./images/mint.svg" alt="Mint Icon">
+                    <span>mint</span>
+                </div>
+                <div class="icon_info">
+                    <img class="icon" src="./images/quickbooks.svg" alt="Quickbooks Icon">
+                <span>quickbooks</span>
+                </div>
+                <div class="icon_info">
+                    <img class="icon" src="./images/turbotax.svg" alt="Turbotax Icon">
+                    <span>turbotax</span>
+                </div> 
+            </div>
 
         </article>
+        <form >
+            <fieldset id="create_account_form">
+                <div class="field">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" class="input_field">
+                </div>
+                <div class="field">
+                    <label for="phone_number">Phone (recommended)</label>
+                    <input type="tel" id="phone_number" class="input_field">
+                    <h6>Standard call, messaging or data rates may apply.</h6>
+                </div>
+                <div class="field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="input_field">
+                </div>
+                
+                
+                
+                <button class="sign_in btn"><i class="fas fa-lock">Create Account</i></button>
+
+            </fieldset>
+            
+        </form>
     </section>
 
     <footer>
