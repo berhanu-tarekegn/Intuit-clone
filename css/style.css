@@ -33,7 +33,6 @@ body {
     width: fit-content;
     margin-left: 10px;
     min-width: 100px;
-    /* display: inline; */
     background: #0077C5;
     padding: 10px;
     color: white;
@@ -42,7 +41,8 @@ body {
 }
 
 .btn_text {
-    display: inline;
+    padding: 10px;
+    font-size: 1.125em;
     
 }
 .company-info {
@@ -86,14 +86,19 @@ body {
     width: 24px;
     height: 24px;
 }
-#create_account_form {
+#registration_form {
     width: 30%;
-    padding: 40px 20px;
     margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+#create_account_form {
+    padding: 40px 20px;
     background: #fff;
     font-family: AvenirNext;
     font-weight: normal;
     border: 1px #ccc solid;
+    border-bottom: none;
 }
 .center {
     text-align: center;
@@ -121,7 +126,16 @@ body {
     border-radius: 5px;
     color: #fff;
     background: #0077C5;
+    margin: 0 auto;
+    text-align: center;
 }
-.btn_text {
-    padding: 10px;
+#form_footer {
+    background: #ECEEF1;
+    padding: 30px 20px;
+    font-size: 10px;
+    font-family: AvenirNext;
+    text-align: center;
+    border: 1px #ccc solid;
+    border-top: none;
 }
+

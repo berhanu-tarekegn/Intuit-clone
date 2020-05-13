@@ -19,7 +19,7 @@
             </div>
 
             <div>
-                <button class="sign_in"><span btn_text><i class="fas fa-lock"></i>Sign In</span></button>
+                <button class="sign_in fas fa-lock"><span class="btn_text">Sign In</span></button>
             </div>
 
         </div>
@@ -45,7 +45,7 @@
             </div>
 
         </article>
-        <form >
+        <form id="registration_form">
             <fieldset id="create_account_form">
                 <div class="center">
                     <h3>Create an Intuit account</h3>
@@ -66,10 +66,16 @@
                     <input type="password" id="password" class="input_field">
                 </div>
                 <div class="field">
-                    <button class="btn"><i class="fas fa-lock"><span btn_text>Create Account</span></i></button>
+                    <button class="btn fas fa-lock"><span class="btn_text">Create Account</span></button>
                 </div>
+                <p class="italicize center">By clicking Create account, you agree to our
+                <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</p>
+                
                 
             </fieldset>
+            <footer id="form_footer">
+                <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+            </footer>
             
         </form>
     </section>
