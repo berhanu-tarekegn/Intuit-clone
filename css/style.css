@@ -33,11 +33,17 @@ body {
     width: fit-content;
     margin-left: 10px;
     min-width: 100px;
+    /* display: inline; */
     background: #0077C5;
     padding: 10px;
     color: white;
     border: 0.8px solid black;
     border-radius: 5px;
+}
+
+.btn_text {
+    display: inline;
+    
 }
 .company-info {
     width: 30%;
@@ -85,9 +91,21 @@ body {
     padding: 40px 20px;
     margin: 0 auto;
     background: #fff;
-    font-family: Avenir;
-    font-weight: lighter;
+    font-family: AvenirNext;
+    font-weight: normal;
     border: 1px #ccc solid;
+}
+.center {
+    text-align: center;
+}
+.center > p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.center > a {
+    text-decoration: none;
+    color: #0077C5;
+    font-size: 12px;
 }
 .input_field {
     border: 1px #ccc solid;
@@ -96,4 +114,14 @@ body {
 }
 .field {
     padding: 20px;
+}
+.btn {
+    padding: 10px;
+    border: 1px #000 solid;
+    border-radius: 5px;
+    color: #fff;
+    background: #0077C5;
+}
+.btn_text {
+    padding: 10px;
 }
