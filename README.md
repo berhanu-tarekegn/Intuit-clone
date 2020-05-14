@@ -1,38 +1,63 @@
-# HTML & CSS3 Course
+# Intuit Clone.
 
-If you are not familiar with linters and Stickler, read [root level README](../README.md).
+> This is a clone of the Intuit registration page.
 
-Please do the following **steps in this order**:
+![screenshot](./images/intuit.png)
 
-### Set-up Stickler (Github app) - it will show that your app is free from style errors
-1. Install stickler-ci https://github.com/apps/stickler-ci
-2. Enable stickler in your repo. You can do it [here](https://stickler-ci.com/).
-3. In first commit of your feature branch add a copy of [.stickler.yml](./.stickler.yml) and [stylelint.config.js](./stylelint.config.js) to the root directory.
-    - **Remember** to use both files linked above
-    - **Remember** that `.stickler.yml` file name starts with a dot.
-4. **Do not make any changes in config files - they represent style guidelines that you share with your tem - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-5. When you open your first pull request you should see Stickler's report at `Checks` tab.
+This project is a replica of the Intuit registration page. It has a form that allows users to enter their respective credentials and submit them to the website backend.
 
-### Set-up Stylelint in your local env - it will help you to find style errors
-1. Run `npm install stylelint stylelint-config-recommended --save-dev`  (not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)).
-2. Copy [stylelint.config.js](./stylelint.config.js) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your tem - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint .`.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+## Built With
+
+- HTML5,
+- CSS3.
+
+## Live Demo
+
+To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/Intuit-clone/develop/index.html)
 
 
-## Troubleshooting
+## Getting Started
 
-1. All config files are in my repo but Stickler does not work.
-    - Make sure that Stickler app has permission to access your repository. Find Stickler here https://github.com/settings/installations and check its configuration.
-    
-    ![screenshot](../assets/images/stickler_app_config.png)
+To get a local copy up and running follow these simple example steps.
 
-    - Try to add a new commit to your Pull Request. Stickler should detect changes in your repo and start checking your code.
-2. `while scanning for the next token found character '\t' that cannot start any token` error.
-    - Please make sure that you used spaces not tabs for indentation.
-3. Check if someone else has had similar problem before [here](https://questions.microverse.org/c/linters-stickler).
-4. Stickler does not work and nothing helps 💥 - run [stylelint](https://stylelint.io/) in your local env and correct all errors. **Remember to let your Code Reviewer know that you had problems with Stickler and you used linter in local env.**
+### Prerequisites
+To run the project smoothly, you must have the following installed on your machine:
+
+- Git
+- A web browser.
+
+### Setup
+You need to clone the project by running `git clone https://github.com/berhanu-tarekegn/Intuit-clone.git` You'd then navigate to the location to which you cloned the project and run the `index.html` file on your browser.
+
+## Authors
+
+👤 **Kelyn Paul Njeri**
+
+- Github: [@KelynPNjeri](https://github.com/KelynPNjeri)
+- Twitter: [@twitterhandle](https://twitter.com/KelynNjeri)
+- Linkedin: [Kelyn Paul](https://linkedin.com/kelyn-paul)
+
+👤 **Author2**
+
+- Github: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- W3Schools
+- CSS Tricks
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
