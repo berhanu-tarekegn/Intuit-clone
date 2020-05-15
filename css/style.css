@@ -64,10 +64,8 @@ body {
 }
 .icon_info > span {
     padding: 5px;
-    /* font-style: italic;
-    font-weight: lighter; */
     font-family: Avenir;
-    font-size: 20px;
+    font-size: 21px;
     color: darkgrey;
 }
 .logo {
