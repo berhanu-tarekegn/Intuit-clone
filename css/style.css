@@ -65,7 +65,7 @@ body {
 
 .icon_info > span {
   padding: 5px;
-  font-family: Avenir;
+  font-family: Avenir, sans-serif;
   font-size: 21px;
   color: darkgrey;
 }
@@ -98,7 +98,7 @@ body {
 #create_account_form {
   padding: 40px 20px;
   background: #fff;
-  font-family: AvenirNext;
+  font-family: AvenirNext, Avenir, sans-serif;
   font-weight: normal;
   border: 1px #ccc solid;
   border-bottom: none;
@@ -151,7 +151,7 @@ body {
   background: #eceef1;
   padding: 30px 20px;
   font-size: 10px;
-  font-family: AvenirNext;
+  font-family: AvenirNext, Avenir, sans-serif;
   text-align: center;
   border: 1px #ccc solid;
   border-top: none;
@@ -160,13 +160,13 @@ body {
 .form_footer_terms_condition {
   text-decoration: none;
   font-size: 10px;
-  font-family: AvenirNext;
+  font-family: AvenirNext, Avenir, sans-serif;
   color: #0077c5;
 }
 
 .form_terms_condition {
   font-size: 14px;
-  font-family: AvenirNext;
+  font-family: AvenirNext, Avenir, sans-serif;
 }
 
 .reference_links {
@@ -178,7 +178,7 @@ body {
   padding: 10px;
   font-size: 12px;
   color: #505050;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial sans-serif;
 }
 
 .footer_links:hover {
@@ -190,7 +190,7 @@ body {
   overflow-wrap: break-word;
   width: 50%;
   color: #505050;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial sans-serif;
   line-height: 1.5;
   font-size: 12px;
 }
