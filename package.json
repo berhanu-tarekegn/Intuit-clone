@@ -19,7 +19,9 @@
     "url": "https://github.com/berhanu-tarekegn/Intuit-clone/issues"
   },
   "homepage": "https://github.com/berhanu-tarekegn/Intuit-clone#readme",
-  "dependencies": {
-    "stylelint": "^13.3.3"
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-recommended": "^3.0.0"
   }
 }
