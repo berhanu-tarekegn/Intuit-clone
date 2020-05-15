@@ -127,6 +127,9 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+.btn:hover {
+    cursor: pointer;
+}
 #form_footer {
     background: #ECEEF1;
     padding: 30px 20px;
