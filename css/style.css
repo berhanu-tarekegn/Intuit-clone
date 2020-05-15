@@ -46,7 +46,7 @@ body {
     
 }
 .company-info {
-    width: 30%;
+    width: 51%;
     margin: 0 auto;
     display: grid;
     grid-template-rows: .2fr .2fr;
@@ -83,8 +83,8 @@ body {
     text-align: center;
 }
 .icon {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
 }
 #registration_form {
     width: 30%;
