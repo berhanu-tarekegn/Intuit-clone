@@ -118,6 +118,9 @@ body {
 .field {
     padding: 20px;
 }
+.field > h6 {
+    padding-top: 5px;
+}
 .btn {
     padding: 10px;
     border: 1px #000 solid;
