@@ -37,11 +37,10 @@ You need to clone the project by running `git clone https://github.com/berhanu-t
 - Twitter: [@twitterhandle](https://twitter.com/KelynNjeri)
 - Linkedin: [Kelyn Paul](https://linkedin.com/kelyn-paul)
 
-👤 **Author2**
+👤 **Berhanu Tarekegn**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@BerhanuTarekegn](https://github.com/berhanu-tarekegn)
+- Linkedin: [Berhanu Tarekegn](https://www.linkedin.com/in/berhanu-tarekegn-687367123/)
 
 ## 🤝 Contributing
 
