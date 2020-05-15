@@ -1,9 +1,9 @@
 @font-face {
-    font-family: Avenir;
-    src: url(../fonts/AvenirLTStd-Roman.otf);
-
+  font-family: Avenir;
+  src: url(../fonts/AvenirLTStd-Roman.otf);
 }
+
 @font-face {
-    font-family: AvenirNext;
-    src: url(../fonts/AvenirNextLTPro-Regular.otf);
+  font-family: AvenirNext;
+  src: url(../fonts/AvenirNextLTPro-Regular.otf);
 }
